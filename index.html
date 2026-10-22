@@ -31,7 +31,7 @@
 
 <h1>Privacy Policy</h1>
 <p class="updated">Application: <strong>Starwise</strong> (package <code>com.kont.starwise</code>)<br>
-Last updated: 17 October 2026</p>
+Last updated: 23 October 2026</p>
 
 <p>This policy explains what data the Starwise logic puzzle game handles. It is written to match
 the actual behaviour of the app, not a generic template.</p>
@@ -41,8 +41,9 @@ the actual behaviour of the app, not a generic template.</p>
 <p>Starwise is played on your device. It needs no account and no sign-in, and the developer runs
 <strong>no servers</strong> for it. The game can optionally use Google Play Games Services for
 achievements, leaderboards and a cloud save (section 4); if you don't use Play Games, your
-progress stays only on your device. The app requests no special
-permissions: it does not use your camera, microphone, location, contacts, photos or files.</p>
+progress stays only on your device. An optional daily reminder notification is scheduled on your
+device and sends no data (section 5). The app does not use your camera, microphone, location,
+contacts, photos or files.</p>
 </div>
 
 <h2>2. Data the developer collects</h2>
@@ -71,12 +72,21 @@ see your scores and profile in your Play Games profile settings. You can delete 
 Play Games profile or your Google Account (<a href="https://myaccount.google.com">myaccount.google.com</a>).
 Google's privacy policy: <a href="https://policies.google.com/privacy">https://policies.google.com/privacy</a></p>
 
-<h2>5. Purchases</h2>
+<h2>5. Daily reminder notification (optional)</h2>
+<p>Starwise offers an optional daily reminder for the Daily Sky. It is scheduled on your device
+and no data is sent for it. It is off until you turn it on: the game asks once, after you solve
+your first daily puzzle, and you can switch it on or off and choose the time in
+<strong>Settings</strong> (default 19:00). At most one reminder is shown per day, and only on days
+you haven't played the Daily Sky yet. Its settings are kept in a separate file on your device and
+are not included in Android backup or the Play Games cloud save. You can also block the
+notifications at any time in Android's app settings.</p>
+
+<h2>6. Purchases</h2>
 <p>An optional one-time "Starwise Pro" purchase is processed entirely by Google Play. The developer
 never sees your payment details. The app only asks Google Play whether the purchase exists, so
 that Pro can be restored on your devices. There are no subscriptions.</p>
 
-<h2>6. Advertising (Google AdMob)</h2>
+<h2>7. Advertising (Google AdMob)</h2>
 <p>The free version shows advertisements supplied by Google AdMob: a banner on the main menu and
 on the result screen, an occasional full-screen ad between puzzles (never during a puzzle), and
 optional rewarded videos you can choose to watch for an extra hint. To serve ads, the Google
@@ -103,30 +113,35 @@ full.</p>
 <p>You can reset or delete your advertising identifier at any time:
 <em>Android Settings → Privacy → Ads</em> (menu names vary by manufacturer).</p>
 
-<h2>7. Permissions</h2>
-<p>Starwise itself declares no permissions. Internet access, network state, advertising ID and
-Android Ad Services permissions are declared by the Google Mobile Ads SDK; the billing permission
-by Google Play Billing.</p>
+<h2>8. Permissions</h2>
+<p>Starwise itself declares the <code>VIBRATE</code> permission, used for short vibrations when
+you play (you can turn them off in Settings), and, for the optional daily reminder,
+<code>POST_NOTIFICATIONS</code> (Android 13 and later; asked only when you turn the reminder on,
+and you can refuse) and <code>RECEIVE_BOOT_COMPLETED</code> (so the reminder is set again after
+your phone restarts). It does not request exact alarm permissions. Internet access, network state,
+advertising ID and Android Ad Services permissions are declared by the Google Mobile Ads SDK; the
+billing permission by Google Play Billing; wake lock and foreground service permissions by the
+included Google libraries for their background work.</p>
 
-<h2>8. Children</h2>
+<h2>9. Children</h2>
 <p>Starwise is a logic puzzle game for a general audience and is not directed at children under 13.
 The developer does not knowingly collect any data from children. Ads are limited to content
 suitable for a general audience.</p>
 
-<h2>9. Data deletion</h2>
+<h2>10. Data deletion</h2>
 <p>Because the developer holds no data about you, there is nothing to request deletion of. To
 remove everything the game stored on your device, uninstall it or use
 <em>Settings → Apps → Starwise → Storage → Clear data</em>. Play Games data (achievements, scores,
 cloud save) can be deleted from your Play Games profile or your Google Account.</p>
 
-<h2>10. Contact</h2>
+<h2>11. Contact</h2>
 <p>Questions about this policy: <strong>konttechnology@gmail.com</strong></p>
 
 <hr>
 
 <h1>Gizlilik Politikası</h1>
 <p class="updated">Uygulama: <strong>Starwise</strong> (paket <code>com.kont.starwise</code>)<br>
-Son güncelleme: 17 Ekim 2026</p>
+Son güncelleme: 23 Ekim 2026</p>
 
 <p>Bu politika, Starwise mantık bulmacası oyununun hangi verileri işlediğini açıklar. Metin,
 uygulamanın gerçek davranışına göre yazılmıştır.</p>
@@ -136,8 +151,9 @@ uygulamanın gerçek davranışına göre yazılmıştır.</p>
 <p>Starwise cihazınızda oynanır. Hesap veya giriş gerektirmez; geliştiricinin bu oyun için
 çalıştırdığı <strong>bir sunucu yoktur.</strong> Oyun, başarımlar, sıralamalar ve bulut kaydı için
 isteğe bağlı olarak Google Play Oyun Hizmetleri'ni kullanabilir (4. bölüm); Play Games kullanmazsanız
-ilerlemeniz yalnızca cihazınızda kalır. Uygulama özel bir izin istemez: kameranızı, mikrofonunuzu,
-konumunuzu, kişilerinizi, fotoğraflarınızı veya dosyalarınızı kullanmaz.</p>
+ilerlemeniz yalnızca cihazınızda kalır. İsteğe bağlı günlük hatırlatma bildirimi cihazınızda
+zamanlanır ve hiçbir veri göndermez (5. bölüm). Uygulama kameranızı, mikrofonunuzu, konumunuzu,
+kişilerinizi, fotoğraflarınızı veya dosyalarınızı kullanmaz.</p>
 </div>
 
 <h2>2. Geliştiricinin topladığı veriler</h2>
@@ -164,12 +180,21 @@ Play Games profil ayarlarından siz belirlersiniz. Bu verileri Play Games profil
 hesabınızdan (<a href="https://myaccount.google.com">myaccount.google.com</a>) silebilirsiniz.
 Google'ın gizlilik politikası: <a href="https://policies.google.com/privacy?hl=tr">https://policies.google.com/privacy</a></p>
 
-<h2>5. Satın almalar</h2>
+<h2>5. Günlük hatırlatma bildirimi (isteğe bağlı)</h2>
+<p>Starwise, Günün Gökyüzü için isteğe bağlı bir günlük hatırlatma sunar. Bildirim cihazınızda
+zamanlanır ve bunun için hiçbir veri gönderilmez. Siz açana kadar kapalıdır: oyun ilk günlük
+bulmacanızı çözdüğünüzde bir kez sorar; hatırlatmayı <strong>Ayarlar</strong>'dan açıp kapatabilir
+ve saatini seçebilirsiniz (varsayılan 19:00). Günde en fazla bir hatırlatma gösterilir, o da
+yalnızca Günün Gökyüzü'nü henüz oynamadığınız günlerde. Hatırlatma ayarları cihazınızda ayrı bir
+dosyada tutulur; Android yedeklemesine ve Play Games bulut kaydına girmez. Bildirimleri Android'in
+uygulama ayarlarından istediğiniz zaman engelleyebilirsiniz.</p>
+
+<h2>6. Satın almalar</h2>
 <p>İsteğe bağlı tek seferlik "Starwise Pro" satın alması tamamen Google Play tarafından işlenir.
 Geliştirici ödeme bilgilerinizi hiçbir zaman görmez. Uygulama yalnızca Pro'nun cihazlarınızda geri
 yüklenebilmesi için satın almanın var olup olmadığını Google Play'e sorar. Abonelik yoktur.</p>
 
-<h2>6. Reklamlar (Google AdMob)</h2>
+<h2>7. Reklamlar (Google AdMob)</h2>
 <p>Ücretsiz sürüm Google AdMob tarafından sağlanan reklamlar gösterir: ana menüde ve sonuç
 ekranında bir banner, bulmacalar arasında ara sıra tam ekran reklam (bulmaca sırasında asla) ve
 ekstra ipucu için isteğe bağlı olarak izleyebileceğiniz ödüllü videolar. Reklam sunmak için
@@ -196,24 +221,29 @@ oyun tam olarak çalışır.</p>
 <p>Reklam kimliğinizi istediğiniz zaman sıfırlayabilir veya silebilirsiniz:
 <em>Android Ayarları → Gizlilik → Reklamlar</em> (menü adları üreticiye göre değişebilir).</p>
 
-<h2>7. İzinler</h2>
-<p>Starwise kendisi hiçbir izin bildirmez. İnternet erişimi, ağ durumu, reklam kimliği ve Android
-Ad Services izinleri Google Mobile Ads SDK'sı, satın alma izni Google Play Billing tarafından
-bildirilir.</p>
+<h2>8. İzinler</h2>
+<p>Starwise kendisi oynarken kısa titreşimler için <code>VIBRATE</code> iznini (Ayarlar'dan
+kapatabilirsiniz) ve isteğe bağlı günlük hatırlatma için <code>POST_NOTIFICATIONS</code> (Android 13
+ve sonrası; yalnızca hatırlatmayı açtığınızda sorulur, reddedebilirsiniz) ve
+<code>RECEIVE_BOOT_COMPLETED</code> (telefon yeniden başlayınca hatırlatmanın yeniden kurulması için)
+izinlerini bildirir. Kesin alarm izni istemez. İnternet erişimi, ağ durumu, reklam kimliği ve
+Android Ad Services izinleri Google Mobile Ads SDK'sı, satın alma izni Google Play Billing, uyanık
+tutma (wake lock) ve ön plan hizmeti izinleri ise arka plan işleri için dahil edilen Google
+kütüphaneleri tarafından bildirilir.</p>
 
-<h2>8. Çocuklar</h2>
+<h2>9. Çocuklar</h2>
 <p>Starwise genel izleyiciye yönelik bir mantık bulmacası oyunudur ve 13 yaş altı çocuklara yönelik
 değildir. Geliştirici bilerek çocuklardan hiçbir veri toplamaz. Reklamlar genel izleyiciye uygun
 içerikle sınırlıdır.</p>
 
-<h2>9. Verilerin silinmesi</h2>
+<h2>10. Verilerin silinmesi</h2>
 <p>Geliştirici sizinle ilgili hiçbir veri tutmadığı için silinmesini isteyebileceğiniz bir veri
 yoktur. Oyunun cihazınızda sakladığı her şeyi silmek için uygulamayı kaldırın veya
 <em>Ayarlar → Uygulamalar → Starwise → Depolama → Verileri temizle</em> yolunu kullanın. Play Games
 verileri (başarımlar, skorlar, bulut kaydı) Play Games profilinizden veya Google hesabınızdan
 silinebilir.</p>
 
-<h2>10. İletişim</h2>
+<h2>11. İletişim</h2>
 <p>Bu politika hakkında sorular: <strong>konttechnology@gmail.com</strong></p>
 
 </body>
